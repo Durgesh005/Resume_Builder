@@ -47,8 +47,7 @@ public class MainActivity extends AppCompatActivity {
         download_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this,"Downloadi" +
-                        "ng...",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Downloading...",Toast.LENGTH_SHORT).show();
 
             }
         });
